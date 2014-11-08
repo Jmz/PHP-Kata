@@ -1,6 +1,7 @@
 <?php
 
-include('../vendor/simpletest/simpletest/autorun.php');
+include('../Chopper.php');
+include('../../vendor/simpletest/simpletest/autorun.php');
 
 class testChop extends UnitTestCase
 {

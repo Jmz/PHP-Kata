@@ -1,4 +1,4 @@
-<?php require_once('../vendor/autoload.php');
+<?php
 
 class Chopper {
 
@@ -63,5 +63,3 @@ class Chopper {
     }
 
 }
-
-include('tests.php');
