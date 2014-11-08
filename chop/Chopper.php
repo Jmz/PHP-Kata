@@ -9,7 +9,7 @@ class Chopper {
      *
      * @param       $value
      * @param array $array
-     * @return int|mixed
+     * @return int
      */
     public function chopPhpFunctions($value, array $array)
     {
@@ -25,7 +25,7 @@ class Chopper {
      *
      * @param       $value
      * @param array $array
-     * @return int|string
+     * @return int
      */
     public function chopIterative($value, array $array)
     {
