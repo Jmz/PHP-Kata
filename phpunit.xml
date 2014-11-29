@@ -1,0 +1,8 @@
+<phpunit
+    bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="chop">
+            <file>chop/tests/ChopperTests.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>
