@@ -1,2 +1,3 @@
 ##Code Katas
-Just somewhere to keep the katas I've been messing around with.
+
+Attempting to do two 15 minute code kata sessions a day. This is where I'll track my progress & keep my code.
