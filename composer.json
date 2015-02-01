@@ -1,11 +1,13 @@
 {
     "require": {
-        "phpunit/phpunit": "4.3.*"
+        "phpunit/phpunit": "4.3.*",
+        "phpspec/phpspec": "2.1.*@dev"
     },
 
     "autoload": {
         "files": [
-            "chop/Chopper.php"
+            "chop/Chopper.php",
+            "src/PrimeFactors.php"
         ]
     }
 }
