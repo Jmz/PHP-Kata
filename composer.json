@@ -8,7 +8,8 @@
         "files": [
             "chop/Chopper.php",
             "src/PrimeFactors.php",
-            "src/StringCalculator.php"
+            "src/StringCalculator.php",
+            "src/RomanNumerals.php"
         ]
     }
 }
