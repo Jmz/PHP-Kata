@@ -10,7 +10,8 @@
             "src/PrimeFactors.php",
             "src/StringCalculator.php",
             "src/RomanNumerals.php",
-            "src/ReverseRomanNumerals.php"
+            "src/ReverseRomanNumerals.php",
+            "src/BowlingGame.php"
         ]
     }
 }
