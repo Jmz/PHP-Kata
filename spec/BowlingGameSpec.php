@@ -43,4 +43,18 @@ class BowlingGameSpec extends ObjectBehavior
 
         $this->score()->shouldBe(20);
     }
+
+    public function it_should_give_a_bonus_for_a_spare()
+    {
+        $this->roll(5);
+        $this->roll(5);
+        $this->roll(4);
+
+        for($i = 0; $i < 17; $i++)
+        {
+            $this->roll(0);
+        }
+
+        $this->score()->shouldBe(18);
+    }
 }
